@@ -1,7 +1,9 @@
 <div class="search-content">
     <input type="text" placeholder="Enter Search Term" #searchTerm>
-    <button type="button" (click)="searchBySearchTerm(searchTerm.pokemon)">Search</button>
+    <button type="button" (click)="searchBySearchTerm(searchTerm.pokemons)">Search</button>
 </div>
+
+
 
 <div class="pokemon-grid" >
 <div class="box"*ngFor="let pokemon of pokemons">

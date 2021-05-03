@@ -25,6 +25,8 @@ pokemons: any[] = [];
     })
   }
 
+  
+
   searchBySearchTerm(searchTerm:string){
     if (searchTerm !== ''){
       this.dataService.getSearchPokemon(searchTerm)
