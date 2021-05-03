@@ -5,6 +5,7 @@ import {HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class DataService {
+  private apiUrl = `https://pokeapi.co/api/v2/pokemon/`;
 
   constructor(
     private http:HttpClient
@@ -21,7 +22,7 @@ getExtraData(name:string){
 
 getSearchPokemon(searchTerm:string)
 {
-  return this.http.get(this.getExtraData + `search?query=${searchTerm}`)
+  return this.http.get(this.apiUrl+`${searchTerm}`)
 }
 
 }

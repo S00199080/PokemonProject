@@ -1,0 +1,68 @@
+[debug] [2021-05-03T19:47:22.244Z] ----------------------------------------------------------------------
+[debug] [2021-05-03T19:47:22.247Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\melan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-03T19:47:22.248Z] CLI Version:   9.10.0
+[debug] [2021-05-03T19:47:22.248Z] Platform:      win32
+[debug] [2021-05-03T19:47:22.248Z] Node Version:  v14.15.4
+[debug] [2021-05-03T19:47:22.249Z] Time:          Mon May 03 2021 20:47:22 GMT+0100 (British Summer Time)
+[debug] [2021-05-03T19:47:22.249Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-03T19:47:22.257Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-03T19:47:22.257Z] > authorizing via signed-in user (melaniegrehan@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\melan
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using carsales-7cbf0. 
+[debug] [2021-05-03T19:47:28.195Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/carsales-7cbf0 [none]
+[debug] [2021-05-03T19:47:28.490Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/carsales-7cbf0 200
+[debug] [2021-05-03T19:47:28.490Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/carsales-7cbf0 {"projectId":"carsales-7cbf0","projectNumber":"100332278302","displayName":"PokemonProject2021","name":"projects/carsales-7cbf0","resources":{"hostingSite":"carsales-7cbf0","storageBucket":"carsales-7cbf0.appspot.com","locationId":"europe-west"},"state":"DELETED"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-05-03T19:56:29.301Z] ----------------------------------------------------------------------
+[debug] [2021-05-03T19:56:29.304Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\melan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-05-03T19:56:29.304Z] CLI Version:   9.10.0
+[debug] [2021-05-03T19:56:29.304Z] Platform:      win32
+[debug] [2021-05-03T19:56:29.304Z] Node Version:  v14.15.4
+[debug] [2021-05-03T19:56:29.305Z] Time:          Mon May 03 2021 20:56:29 GMT+0100 (British Summer Time)
+[debug] [2021-05-03T19:56:29.306Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-05-03T19:56:29.315Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-03T19:56:29.315Z] > authorizing via signed-in user (melaniegrehan@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\melan
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+

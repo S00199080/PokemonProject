@@ -30,8 +30,8 @@ pokemons: any[] = [];
   searchBySearchTerm(searchTerm:string){
     if (searchTerm !== ''){
       this.dataService.getSearchPokemon(searchTerm)
-      .subscribe((pokemon:any)=>{       
-        this.pokemons=pokemon.result;
+      .subscribe((pokemons:any)=>{       
+        this.pokemons=pokemons.result;
       });
     }
   }
