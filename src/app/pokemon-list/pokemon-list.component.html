@@ -1,0 +1,33 @@
+<div class="search-content">
+    <input type="text" placeholder="Enter Search Term" #searchTerm>
+    <button type="button" (click)="searchBySearchTerm(searchTerm.pokemon)">Search</button>
+</div>
+
+<div class="pokemon-grid" >
+<div class="box"*ngFor="let pokemon of pokemons">
+    1
+    <img [src] = "pokemon.sprites.front_default">
+    <h2>{{pokemon.name}}</h2>
+    <p>
+    Height:  {{pokemon.height}}
+    <p>
+    <p>
+    Type:  {{pokemon.types[0].type.name}}
+    </p>
+    <p>
+    Ability:  {{pokemon.abilities[0].ability.name}}
+    </p>
+    <p>
+     Health:  {{pokemon.stats[0].base_stat}}
+    </p>
+</div>
+<div class="box">
+    2
+</div> 
+<div class="box">
+    3
+</div>
+
+
+
+</div>
